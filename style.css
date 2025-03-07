@@ -1,0 +1,23 @@
+*{
+     box-sizing: border-box;
+}
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0%;
+}
+body{
+    background:linear-gradient(-45deg, rgb(7, 57, 92),rgb(61, 158, 233),rgb(156, 225, 225)) ;
+}
+.wrapper{
+    display: flex;
+align-items: center;
+height: 100vh;
+justify-content: center;
+background-color: blanchedalmond;
+margin: 40px;
+
+
+}
