@@ -11,7 +11,7 @@
     margin: 0%;
 }
 body{
-    background:linear-gradient(135deg, rgb(6, 97, 162),rgb(57, 154, 224),rgb(143, 161, 161)) ;
+    background:linear-gradient(135deg, rgb(32, 148, 231),rgb(138, 190, 228),rgb(143, 161, 161)) ;
     
 }
 .wrapper{
@@ -24,20 +24,20 @@ justify-content: center;
 
 }
 .calculator{
-    background-color: rgba(252, 255, 255, 0.185);
+    background-color: rgba(11, 5, 5, 0.929);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 230px;
-    height: 450px;
+    height: 475px;
     backdrop-filter: blur(10px);
 }
 .screen{
     
-        background-color: aliceblue;
+        background-color: rgba(61, 61, 61, 0.251);
         width: 200px;
-        height: 220px;
+        height: 180px;
         display: flex;
-        
+        border-radius: 20px;
         justify-content: right;
         font-size: 24px;
         
@@ -47,16 +47,37 @@ justify-content: center;
     
 }
 .calc-button{
-    width: 40px;
-    height: 40px;
+    width: 43px;
+    height: 43px;
     border-radius: 10px;
-    background-color: aqua;
+    background: rgb(129, 130, 130);
+    color: rgb(255, 255, 255);
+    
     
 }
 .calc-button-raw{
-    background-color: aliceblue;
+    
     padding:3px  ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
+}
+.calc-button-double{
+    width: 93px;
+    height: 43px;
+    border-radius: 10px;
+    flex-basis: 47%;
+    background-color: rgb(212, 141, 112);
+    color: aliceblue;
+}
+
+.calc-button-triple{
+    width: 90px;
+    border-radius: 10px;
+    background-color: rgb(129, 130, 130);
+    color: aliceblue;
+
+}
+.bl{
+    background-color: rgb(24, 115, 220);
 }
