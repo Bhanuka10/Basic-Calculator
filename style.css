@@ -1,5 +1,7 @@
 *{
      box-sizing: border-box;
+     padding: 0;
+     margin: 0;
 }
 *,
 *::before
@@ -9,15 +11,19 @@
     margin: 0%;
 }
 body{
-    background:linear-gradient(-45deg, rgb(7, 57, 92),rgb(61, 158, 233),rgb(156, 225, 225)) ;
+    background:linear-gradient(135deg, rgb(6, 97, 162),rgb(57, 154, 224),rgb(143, 161, 161)) ;
+    
 }
 .wrapper{
     display: flex;
 align-items: center;
 height: 100vh;
 justify-content: center;
-background-color: blanchedalmond;
-margin: 40px;
 
 
+}
+.calculator{
+    background-color: rgba(252, 255, 255, 0.185);
+    padding: 10px;
+    margin: 10px;
 }
