@@ -17,7 +17,11 @@ function handleSymbole(symbole){
         buffer= "0";
         runningtotal=0;
         break;
-        
+        case'=':
+        if(previousoperator === null){
+            return
+        }
+        flushOperation(parseInt(buffer));
 
     }
 
