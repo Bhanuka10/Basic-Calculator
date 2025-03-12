@@ -40,9 +40,14 @@ justify-content: center;
         border-radius: 20px;
         justify-content: right;
         font-size: 24px;
-        
+        display: flex;
+        text-align: right;
+        padding-top: 130px;
         border-radius: 5px;
         margin: 10px auto; /* Centers the screen */
+        font-size: 30px;
+        padding-right: 10px;
+        color: aliceblue;
     
     
 }
